@@ -4,4 +4,4 @@ WORKDIR /app
 
 RUN cargo install dumpsync
 
-CMD ["dumpsync"]
+CMD ["dumpsync", "--version"]
